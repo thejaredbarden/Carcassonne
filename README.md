@@ -1,0 +1,4 @@
+Carcassonne
+===========
+
+Scoreboard for Carcassonne
