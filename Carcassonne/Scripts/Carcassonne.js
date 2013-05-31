@@ -4,20 +4,20 @@ $(document).ready(function(){
 });
 
 function StartGame() {
-    alert("here");
-    alert($("[id*=PlayerColor]").val());
 }
 
 function CreateGame() {
-
-    StartGame();
-
+    var players = $("#NumberOfPlayers").val();
+    if (players < 2) {
+        alert("You can't play with less than two players!");
+        return;
+    }
     $.ajax(
         {
             url: "/Game/Create",
             data:
                 {
-                    Players: 4
+                    Players: players
                 },
             success: function (result) {
                 $("#PlayerInformation").html(result);

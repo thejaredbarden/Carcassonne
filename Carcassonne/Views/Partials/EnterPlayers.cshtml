@@ -2,11 +2,11 @@
 
 <div>
 
-    @for (int i = 1; i < Model.NumberOfPlayers; i++)
+    @for (int i = 1; i <= Model.NumberOfPlayers; i++)
     {
         <div>
-            Name: <input type="text" id="Player_@i" />
-            <select id="PlayerColor_@i">
+            Name: <input type="text" id="Player@(i)" />
+            <select id="PlayerColor@(i)">
                 <option value="Red">Red</option>
                 <option value="Green">Green</option>
                 <option value="Blue">Blue</option>
