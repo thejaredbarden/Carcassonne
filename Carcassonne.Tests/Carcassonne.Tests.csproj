@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AEEDC0A9-6B73-43D3-A7BF-AB06AD962766}</ProjectGuid>
+    <ProjectGuid>{BE523365-2C2B-4ADE-86DD-E190CC577989}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Carcassonne.Tests</RootNamespace>
