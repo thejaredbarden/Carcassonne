@@ -1,6 +1,4 @@
-$(document).ready(function(){
-
-    $("#SubmitPlayersButton").click(StartGame);
+$(document).ready(function(){    
 
     $("#CreateGameButton").on("click", CreateGame);
 });
