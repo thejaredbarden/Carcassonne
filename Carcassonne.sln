@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carcassonne", "Carcassonne\Carcassonne.csproj", "{632522D7-3A48-4AF7-8C09-29500468E13B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carcassonne.Tests", "Carcassonne.Tests\Carcassonne.Tests.csproj", "{BE523365-2C2B-4ADE-86DD-E190CC577989}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carcassonne", "Carcassonne\Carcassonne.csproj", "{3B5E27B1-6954-471F-8E64-305D9C59B035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carcassonne.Tests", "Carcassonne.Tests\Carcassonne.Tests.csproj", "{AEEDC0A9-6B73-43D3-A7BF-AB06AD962766}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +22,14 @@ Global
 		{BE523365-2C2B-4ADE-86DD-E190CC577989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE523365-2C2B-4ADE-86DD-E190CC577989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE523365-2C2B-4ADE-86DD-E190CC577989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5E27B1-6954-471F-8E64-305D9C59B035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5E27B1-6954-471F-8E64-305D9C59B035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5E27B1-6954-471F-8E64-305D9C59B035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5E27B1-6954-471F-8E64-305D9C59B035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEDC0A9-6B73-43D3-A7BF-AB06AD962766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEDC0A9-6B73-43D3-A7BF-AB06AD962766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEDC0A9-6B73-43D3-A7BF-AB06AD962766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEDC0A9-6B73-43D3-A7BF-AB06AD962766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
